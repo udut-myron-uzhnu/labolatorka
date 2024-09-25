@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спостереження за птахами</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="additional-styles.css"> <!-- Додатковий CSS -->
+</head>
+<body>
 
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Логотип сайту">
+            <h1>Спостереження за птахами</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="welcome">
+            <h2>Ласкаво просимо до спостереження за птахами!</h2>
+            <p>Цей сайт присвячений всім, хто любить птахів. Тут ви знайдете інформацію про різні види птахів, їх середовище проживання та багато іншого.</p>
+        </section>
+        <aside class="sidebar">
+            <h3>Галерея</h3>
+            <img src="thumbnail1.jpg" alt="Птах 1">
+            <img src="thumbnail2.jpg" alt="Птах 2">
+            <img src="thumbnail3.jpg" alt="Птах 3">
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Спостереження за птахами. Усі права захищені.</p>
+        <p>Розроблено командою BirdWatchers.</p>
+    </footer>
+
+</body>
+</html>
