@@ -1,1 +1,140 @@
-
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="minimal-table.css">
+    <title>Планети Сонячної системи</title>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <caption>Дані про планети Сонячної системи (Факти про планети взяті з <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>)</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="planet-name">Назва планети</th>
+                    <th scope="col">Маса (10<sup>24</sup>кг)</th>
+                    <th scope="col">Діаметр (км)</th>
+                    <th scope="col">Щільність (кг/м<sup>3</sup>)</th>
+                    <th scope="col">Гравітація (м/с<sup>2</sup>)</th>
+                    <th scope="col">Тривалість доби (години)</th>
+                    <th scope="col">Відстань від Сонця (млн км)</th>
+                    <th scope="col">Середня температура (°C)</th>
+                    <th scope="col">Кількість супутників</th>
+                    <th scope="col">Примітки</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Меркурій</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>167</td>
+                    <td>0</td>
+                    <td>Найближча до Сонця</td>
+                </tr>
+                <tr>
+                    <th scope="row">Венера</th>
+                    <td>4.87</td>
+                    <td>12,104</td>
+                    <td>5243</td>
+                    <td>8.9</td>
+                    <td>2802.0</td>
+                    <td>108.2</td>
+                    <td>464</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Земля</th>
+                    <td>5.97</td>
+                    <td>12,756</td>
+                    <td>5514</td>
+                    <td>9.8</td>
+                    <td>24.0</td>
+                    <td>149.6</td>
+                    <td>15</td>
+                    <td>1</td>
+                    <td>Наш світ</td>
+                </tr>
+                <tr>
+                    <th scope="row">Марс</th>
+                    <td>0.642</td>
+                    <td>6,792</td>
+                    <td>3933</td>
+                    <td>3.7</td>
+                    <td>24.7</td>
+                    <td>227.9</td>
+                    <td>-65</td>
+                    <td>2</td>
+                    <td>Червона планета</td>
+                </tr>
+                <tr>
+                    <th scope="row">Юпітер</th>
+                    <td>1898</td>
+                    <td>142,984</td>
+                    <td>1326</td>
+                    <td>23.1</td>
+                    <td>9.9</td>
+                    <td>778.6</td>
+                    <td>-110</td>
+                    <td>67</td>
+                    <td>Найбільша планета</td>
+                </tr>
+                <tr>
+                    <th scope="row">Сатурн</th>
+                    <td>568</td>
+                    <td>120,536</td>
+                    <td>687</td>
+                    <td>9.0</td>
+                    <td>10.7</td>
+                    <td>1433.5</td>
+                    <td>-140</td>
+                    <td>62</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Уран</th>
+                    <td>86.8</td>
+                    <td>51,118</td>
+                    <td>1271</td>
+                    <td>8.7</td>
+                    <td>17.2</td>
+                    <td>2872.5</td>
+                    <td>-195</td>
+                    <td>27</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Нептун</th>
+                    <td>102</td>
+                    <td>49,528</td>
+                    <td>1638</td>
+                    <td>11.0</td>
+                    <td>16.1</td>
+                    <td>4495.1</td>
+                    <td>-200</td>
+                    <td>14</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">Плутон</th>
+                    <td>0.0146</td>
+                    <td>2,370</td>
+                    <td>2095</td>
+                    <td>0.7</td>
+                    <td>153.3</td>
+                    <td>5906.4</td>
+                    <td>-225</td>
+                    <td>5</td>
+                    <td>Деактивована як планета в 2006 році, але це <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">залишається спірним</a>.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
