@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Splash Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet'>
+    <link rel="stylesheet" href="ronaldo_goat.css">
+    <link rel="shortcut icon" href="top4ik.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>NASA</h1>
+        <img src="nasa-logo-small.png" alt="NASA Logo" aria-label="NASA Logo">
+    </header>
 
+    <main>
+        <article>
+            <h2>Exploring the Cosmos</h2>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/4czjS9h4Fpg" 
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+            <p>NASA is a global community of scientists, engineers, and explorers, working together to push the boundaries of space exploration and scientific discovery. We believe that expanding our understanding of the universe is essential to the advancement of humanity and our collective future.</p>
+            <p>Click on the images below to find more information about the fascinating missions NASA undertakes. Visit the <a href="https://www.nasa.gov/" target="_blank">NASA Official Website</a> for more details.</p>
+        </article>
+
+        <section class="further-info">
+            <h2>Learn More About Our Missions</h2>
+            <a href="https://www.nasa.gov/">
+                <img src="nasa-logo.svg" alt="NASA Logo">
+            </a>
+            <a href="https://mars.nasa.gov/mars2020/">
+                <img srcset="mars-rover-120.png 120w, mars-rover-400.png 400w"
+                     sizes="(max-width: 500px) 120px, 400px"
+                     src="mars-rover-400.png" alt="Mars Rover">
+            </a>
+            <a href="https://www.nasa.gov/mission_pages/hubble/main/index.html">
+                <img srcset="hubble-telescope-120.png 120w, hubble-telescope-400.png 400w"
+                     sizes="(max-width: 500px) 120px, 400px"
+                     src="hubble-telescope-400.png" alt="Hubble Telescope">
+            </a>
+            <a href="https://earthobservatory.nasa.gov/">
+                <img srcset="earth-from-space-120.png 120w, earth-from-space-400.png 400w"
+                     sizes="(max-width: 500px) 120px, 400px"
+                     src="earth-from-space-400.png" alt="Earth from Space">
+            </a>
+        </section>
+
+        <div class="space-image">
+            <picture>
+                <source media="(max-width: 600px)" srcset="milky-way-portrait.jpeg">
+                <img src="milky-way-landscape.jpeg" alt="Milky Way" loading="lazy">
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NASA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
