@@ -1,0 +1,133 @@
+[
+    {
+      "albumId": 401,
+      "title": "Світ без війни",
+      "artist": "Океан Ельзи",
+      "genre": "Рок",
+      "releaseYear": 2016,
+      "tracks": [
+        "Не твоя війна",
+        "Життя починається знов",
+        "Не йди"
+      ],
+      "coverUrl": "path/to/okean_elzy_album_cover.jpg"
+    },
+    {
+      "albumId": 402,
+      "title": "Земля",
+      "artist": "Друга Ріка",
+      "genre": "Поп-рок",
+      "releaseYear": 2018,
+      "tracks": [
+        "Сьомий день",
+        "Ти є я",
+        "Дотик"
+      ],
+      "coverUrl": "path/to/druga_rika_album_cover.jpg"
+    },
+    {
+      "albumId": 403,
+      "title": "Кристалічна мрія",
+      "artist": "The Hardkiss",
+      "genre": "Альтернативний рок",
+      "releaseYear": 2019,
+      "tracks": [
+        "Кораблі",
+        "Журавлі",
+        "Мелодія"
+      ],
+      "coverUrl": "path/to/the_hardkiss_album_cover.jpg"
+    },
+    {
+      "albumId": 404,
+      "title": "Інгредієнти",
+      "artist": "Бумбокс",
+      "genre": "Хіп-хоп",
+      "releaseYear": 2017,
+      "tracks": [
+        "Колишня",
+        "Твій номер",
+        "Наодинці"
+      ],
+      "coverUrl": "path/to/boombox_album_cover.jpg"
+    },
+    {
+      "albumId": 405,
+      "title": "Вільна",
+      "artist": "Тіна Кароль",
+      "genre": "Поп",
+      "releaseYear": 2020,
+      "tracks": [
+        "Вільна",
+        "Сила висоти",
+        "Ніжно"
+      ],
+      "coverUrl": "path/to/tina_karol_album_cover.jpg"
+    },
+    {
+      "albumId": 406,
+      "title": "Країна мрій",
+      "artist": "Воплі Відоплясова",
+      "genre": "Фолк-рок",
+      "releaseYear": 2015,
+      "tracks": [
+        "Весна",
+        "День народження",
+        "Країна мрій"
+      ],
+      "coverUrl": "path/to/vv_album_cover.jpg"
+    },
+    {
+      "albumId": 407,
+      "title": "Там, де ми є",
+      "artist": "Антитіла",
+      "genre": "Поп-рок",
+      "releaseYear": 2018,
+      "tracks": [
+        "TDME",
+        "Лови момент",
+        "Танцюй"
+      ],
+      "coverUrl": "path/to/antytila_album_cover.jpg"
+    },
+    {
+      "albumId": 408,
+      "title": "Злива",
+      "artist": "Без Обмежень",
+      "genre": "Рок",
+      "releaseYear": 2019,
+      "tracks": [
+        "Зорі запалали",
+        "Моя країна",
+        "Хочеш"
+      ],
+      "coverUrl": "path/to/bez_obmezhen_album_cover.jpg"
+    },
+    {
+      "albumId": 409,
+      "title": "Лагідна та сувора",
+      "artist": "СКАЙ",
+      "genre": "Рок",
+      "releaseYear": 2017,
+      "tracks": [
+        "Давай втечемо",
+        "Знак оклику",
+        "Тебе це може вбити"
+      ],
+      "coverUrl": "path/to/sky_album_cover.jpg"
+    },
+    {
+      "albumId": 410,
+      "title": "Голос",
+      "artist": "Джамала",
+      "genre": "Джаз",
+      "releaseYear": 2016,
+      "tracks": [
+        "1944",
+        "Злива",
+        "Подих"
+      ],
+      "coverUrl": "path/to/jamala_album_cover.jpg"
+    }
+  ]
+  
