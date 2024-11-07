@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог музичних альбомів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <h1>Каталог музичних альбомів</h1>
+</header>
+
+<div class="filters">
+    <input type="text" id="search" class="filter" placeholder="Пошук за назвою...">
+    <select id="genreFilter" class="filter">
+        <option value="">Виберіть жанр</option>
+    </select>
+    <select id="artistFilter" class="filter">
+        <option value="">Виберіть виконавця</option>
+    </select>
+    <input type="number" id="yearFilter" class="filter" placeholder="Рік випуску">
+    <button id="sortAsc">Сортувати за роком (↑)</button>
+    <button id="sortDesc">Сортувати за роком (↓)</button>
+</div>
+
+<div class="album-cards" id="albumCards"></div>
+
+<div class="modal" id="albumModal">
+    <div class="modal-content">
+        <h2 id="modalTitle"></h2>
+        <p id="modalTracks"></p>
+        <button id="closeModal">Закрити</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
